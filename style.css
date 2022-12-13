@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'oswald';
+    src: url('assets/fonts/Ubuntu-Regular.ttf');
+}
+@font-face {
+    font-family: 'oswald bold';
+    src: url('assets/fonts/Ubuntu-Bold.ttf');
+}
+@font-face {
+    font-family: 'oswald medium';
+    src: url('assets/fonts/Ubuntu-Medium.ttf');
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.container{
+    height:80%;
+    width:65%;
+}
+.current-info{
+    height:90%;
+    width:30%;
+    background:url('assets/images/bg-sidebar-desktop.svg');
+    background-size:cover;
+}
+.steps{
+    color:white;
+    font-family: 'oswald';
+}
+.steps p{
+    color:rgb(219, 213, 213)
+}
+
+.step-number {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.active-step{
+    background:#0dcaf0;
+    color:black;
+    border:none !important;
+}
+.step-item{
+    font-family: monospace;
+}
+.form-fill{
+    width: 61%;
+    height:80%;
+    margin-left: 50px;
+}
+.form-group{
+    font-family: 'oswald medium';
+}
+.next-step{
+    background:rgb(27, 6, 51);
+    color:white;
+    float: right;
+    margin-top:72px;
+}
